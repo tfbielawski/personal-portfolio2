@@ -9,14 +9,11 @@ import TTT2 from "../assets/rtt4.jpeg";
 import WX1 from "../assets/wx1.png";
 import SW1 from "../assets/sw1.jpeg";
 
-const CHANGEPOINT_URL = "https://play.google.com/store/search?q=changepoint&c=apps"
-
-// Style the images to fit the boxes, or replace chopped images with smaller
 export const ProjectList = [
   {
     name: "PocketPlatform Mobile App",
     image: PP,
-    skills: "",
+    skills: "Stack: React Native, JetBrains IDE, VS Code, Android Studio, xCode, GitHub",
     repo: "https://github.com/tfbielawski/",
     deploy: "https://www.acstechnologies.com/ministryplatform/tools/pocketplatform",
     description: `PocketPlatform is a customized mobile app for churches using both Android and iOS using React Native.
@@ -27,7 +24,7 @@ export const ProjectList = [
   {
     name: "Step Up For Students (SUFS)",
     image: SUFS,
-    skills: "",
+    skills: "Stack: C#, .NET, Blazor, Cosmos db, Visual Studio, GitHub",
     repo: "https://github.com/tfbielawski/",
     deploy: "https://www.stepupforstudents.org",
     description: `SUFS is a multi-state education platform for students that connects students and parents with educators, schools, 
@@ -42,19 +39,18 @@ export const ProjectList = [
     deploy: "https://github.com/tfbielawski/",
     description: `Click "Launch" to View my GitHub repositories.`
   },
-  //This app doesn't work.
-  // {
-  //   name: "NASA Photo of the Day API React App",
-  //   image: NASA,
-  //   skills: "",
-  //   repo: "https://github.com/tfbielawski/nasa-apod-vercel",
-  //   deploy: "deploy",
-  //   description: "A really cool picture rotated daily by NASA with description using their API."
-  // },
+  {
+    name: "NASA Photo/Video of the Day API React App",
+    image: NASA,
+    skills: "Stack: ReactJS, Axios/Fetch, REST Api, CRUD, VS Code, GitHub",
+    repo: "https://github.com/tfbielawski/nasa-apod-2",
+    deploy: "https://nasa-apod-2-fts7eg7ys-tfbielawski.vercel.app",
+    description: "A really cool picture or video rotated daily by NASA with description using their API."
+  },
   {
     name: "React Dungeons & Dragons Random Monster Generator",
     image: DD1,
-    skills: "",
+    skills: "Stack: ReactJS, Axios, Redux, REST Api, CRUD, VS Code, GitHub",
     repo: "https://github.com/tfbielawski/vercel-async-redux",
     deploy: "https://vercel-async-redux.vercel.app",
     description: "A React/Redux app to explore monsters from the D&D universe using the D&D API!"
@@ -62,7 +58,7 @@ export const ProjectList = [
   {
     name: "React Dungeons & Dragons Campaign Helper App",
     image: DD2,
-    skills: "",
+    skills: "Stack: ReactJS, Axios/Fetch, REST Api, CRUD, VS Code, GitHub",
     repo: "https://github.com/tfbielawski/reactDD",
     deploy: "https://new-reactdd-vercel.vercel.app",
     description: "A React app to help gather character, monster, and magic information with data from the D&D API!"
@@ -70,7 +66,7 @@ export const ProjectList = [
   {
     name: "React-Tac-Toe",
     image: TTT1,
-    skills: "",
+    skills: "Stack: React JS, WebStorm IDE, GitHub",
     repo: "https://github.com/tfbielawski/react-tac-toe-vercel",
     deploy: "https://react-tac-toe-vercel.vercel.app",
     description: "A basic Tic Tac Toe app in React."
@@ -78,7 +74,7 @@ export const ProjectList = [
   {
     name: "React-Tac-Toe-2",
     image: TTT2,
-    skills: "",
+    skills: "Stack: , GitHub",
     repo: "https://github.com/tfbielawski/react-tac-toe-2",
     deploy: "https://react-tac-toe-2.vercel.app",
     description: "A better Tic Tac Toe app in React."
@@ -86,7 +82,7 @@ export const ProjectList = [
   {
     name: "React Weather App",
     image: WX1,
-    skills: "",
+    skills: " , GitHub",
     repo: "https://github.com/tfbielawski/react-wx-vercel",
     deploy: "https://react-wx-vercel.vercel.app",
     description: "A little React app to check the weather using a weather API."
@@ -94,19 +90,19 @@ export const ProjectList = [
   {
     name: "Star Wars API",
     image: SW1,
-    skills: "",
+    skills: " , GitHub",
     repo: "https://github.com/tfbielawski/reactsw-vercel",
     deploy: "https://reactsw-vercel.vercel.app",
     description: "A React app that gets info from the Star Wars API about various characters and places."
   },
-  // {
-  //   name: "React Essentials Info App",
-  //   image: SW1,
-  //   skills: "",
-  //   repo: "repo",
-  //   deploy: "",
-  //   description: "..."
-  // },
+  {
+    name: "React Essentials Info App",
+    image: SW1,
+    skills: " , GitHub",
+    repo: "https://github.com/tfbielawski/react-essentials",
+    deploy: "https://react-essentials-lilac.vercel.app",
+    description: "A basic React website with information about the React Framwork."
+  },
   // {
   //   name: "JS Monster Killer",
   //   image: SW1,
