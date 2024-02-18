@@ -8,7 +8,10 @@ import TTT1 from "../assets/ttt1.png";
 import TTT2 from "../assets/rtt4.jpeg";
 import WX1 from "../assets/wx1.png";
 import SW1 from "../assets/sw1.jpeg";
+import RJS1 from "../assets/rjs1.png";
 
+//FIX REACT ESSENTIALS APP SKILLS SECTION
+//Why doesnt NASA app work on Vercel??
 export const ProjectList = [
   {
     name: "PocketPlatform Mobile App",
@@ -39,14 +42,14 @@ export const ProjectList = [
     deploy: "https://github.com/tfbielawski/",
     description: `Click "Launch" to View my GitHub repositories.`
   },
-  {
-    name: "NASA Photo/Video of the Day API React App",
-    image: NASA,
-    skills: "Stack: ReactJS, Axios/Fetch, REST Api, CRUD, VS Code, GitHub",
-    repo: "https://github.com/tfbielawski/nasa-apod-2",
-    deploy: "https://nasa-apod-2-fts7eg7ys-tfbielawski.vercel.app",
-    description: "A really cool picture or video rotated daily by NASA with description using their API."
-  },
+  // {
+  //   name: "NASA Photo/Video of the Day API React App",
+  //   image: NASA,
+  //   skills: "Stack: ReactJS, Axios/Fetch, REST Api, CRUD, VS Code, GitHub",
+  //   repo: "https://github.com/tfbielawski/nasa-apod-2",
+  //   deploy: "https://nasa-apod-2-fts7eg7ys-tfbielawski.vercel.app",
+  //   description: "A really cool picture or video rotated daily by NASA with description using their API."
+  // },
   {
     name: "React Dungeons & Dragons Random Monster Generator",
     image: DD1,
@@ -97,7 +100,7 @@ export const ProjectList = [
   },
   {
     name: "React Essentials Info App",
-    image: SW1,
+    image: RJS1,
     skills: " , GitHub",
     repo: "https://github.com/tfbielawski/react-essentials",
     deploy: "https://react-essentials-lilac.vercel.app",
